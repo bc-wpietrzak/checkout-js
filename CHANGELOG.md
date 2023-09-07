@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.368.4-prerelease.1694073473054](https://github.com/bigcommerce/checkout-js/compare/v1.368.4-prerelease.1693915099602...v1.368.4-prerelease.1694073473054) (2023-09-07)
+
+
+### Features
+
+* **payment:** PI-744 fix payment method rendering for mollie klarna ([70c8b88](https://github.com/bigcommerce/checkout-js/commit/70c8b8833796c8e77096bf33eb6439fd2fcf8a94))
+
 ### [1.368.3](https://github.com/bigcommerce/checkout-js/compare/v1.368.2...v1.368.3) (2023-09-05)
 
 ### [1.368.2](https://github.com/bigcommerce/checkout-js/compare/v1.368.1...v1.368.2) (2023-09-05)
