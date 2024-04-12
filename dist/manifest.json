@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "appVersion": "1.470.1",
+  "appVersion": "1.470.2-prerelease.1712932072393",
   "dynamicChunks": {
     "js": [
       "134-2abdb919.js",
