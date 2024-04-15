@@ -8,6 +8,7 @@
     "barclay-integration": "packages/barclay-integration",
     "bluesnap-direct-integration": "packages/bluesnap-direct-integration",
     "braintree-integration": "packages/braintree-integration",
+    "ccavenue-mars-integration": "packages/ccavenue-mars-integration",
     "checkout-button-integration": "packages/checkout-button-integration",
     "checkout-extension": "packages/checkout-extension",
     "core": "packages/core",

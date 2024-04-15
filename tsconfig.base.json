@@ -29,6 +29,9 @@
       "@bigcommerce/checkout/braintree-integration": [
         "packages/braintree-integration/src/index.ts"
       ],
+      "@bigcommerce/checkout/ccavenue-mars-integration": [
+        "packages/ccavenue-mars-integration/src/index.ts"
+      ],
       "@bigcommerce/checkout/checkout-button-integration": [
         "packages/checkout-button-integration/src/index.ts"
       ],
