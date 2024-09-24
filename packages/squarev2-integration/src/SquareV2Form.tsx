@@ -158,6 +158,7 @@ const SquareV2Form: FunctionComponent<SquareV2FormProps> = ({
                     />
                 )}
             </div>
+            <div>the test is working!</div>
         </LoadingOverlay>
     );
 };
