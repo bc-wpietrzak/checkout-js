@@ -78,6 +78,7 @@ export {
     ConfirmationModal,
     Modal,
     ModalHeader,
+    ModalProps,
     ModalTrigger,
     ModalTriggerModalProps,
 } from './modal';

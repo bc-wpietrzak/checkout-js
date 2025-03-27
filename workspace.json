@@ -26,7 +26,6 @@
     "hosted-widget-integration": "packages/hosted-widget-integration",
     "instrument-utils": "packages/instrument-utils",
     "klarna-integration": "packages/klarna-integration",
-    "stripe-integration": "packages/stripe-integration",
     "legacy-hoc": "packages/legacy-hoc",
     "locale": "packages/locale",
     "mollie-integration": "packages/mollie-integration",
@@ -37,12 +36,14 @@
     "paypal-express-integration": "packages/paypal-express-integration",
     "paypal-fastlane-integration": "packages/paypal-fastlane-integration",
     "squarev2-integration": "packages/squarev2-integration",
+    "stripe-integration": "packages/stripe-integration",
     "td-bank-integration": "packages/td-bank-integration",
     "test-framework": "packages/test-framework",
     "test-mocks": "packages/test-mocks",
     "test-utils": "packages/test-utils",
     "ui": "packages/ui",
     "wallet-button-integration": "packages/wallet-button-integration",
-    "workspace-tools": "packages/workspace-tools"
+    "workspace-tools": "packages/workspace-tools",
+    "worldpay-access-integration": "packages/worldpay-access-integration"
   }
 }
