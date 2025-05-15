@@ -18,16 +18,19 @@ const AfterpayPaymentMethod: FunctionComponent<PaymentMethodProps> = ({
     const description = useMemo(() => <TranslatedString id="payment.affirm_body_text" />, []);
 
     return (
-        <HostedPaymentComponent
-            {...rest}
-            checkoutService={checkoutService}
-            checkoutState={checkoutState}
-            deinitializePayment={checkoutService.deinitializePayment}
-            description={description}
-            initializePayment={checkoutService.initializePayment}
-            method={method}
-            paymentForm={paymentForm}
-        />
+        <>
+            <div>its a test</div>
+            <HostedPaymentComponent
+                {...rest}
+                checkoutService={checkoutService}
+                checkoutState={checkoutState}
+                deinitializePayment={checkoutService.deinitializePayment}
+                description={description}
+                initializePayment={checkoutService.initializePayment}
+                method={method}
+                paymentForm={paymentForm}
+            />
+        </>
     );
 };
 

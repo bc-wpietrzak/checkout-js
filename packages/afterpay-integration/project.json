@@ -1,20 +1,25 @@
 {
-  "name": "afterpay-integration",
-  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "root": "packages/afterpay-integration",
   "sourceRoot": "packages/afterpay-integration/src",
   "projectType": "library",
   "targets": {
     "lint": {
-      "executor": "@nx/eslint:lint",
-      "outputs": ["{options.outputFile}"]
+      "executor": "@nrwl/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": ["packages/afterpay-integration/**/*.{ts,tsx}"]
+      }
     },
     "test": {
-      "executor": "@nx/jest:jest",
-      "outputs": ["{workspaceRoot}/coverage/packages/afterpay-integration"],
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["coverage/packages/afterpay-integration"],
       "options": {
-        "jestConfig": "packages/afterpay-integration/jest.config.js"
+        "jestConfig": "packages/afterpay-integration/jest.config.js",
+        "passWithNoTests": true
       }
     }
   },
-  "tags": ["scope:integration"]
+  "tags": [
+    "scope:integration"
+    ]
 }
